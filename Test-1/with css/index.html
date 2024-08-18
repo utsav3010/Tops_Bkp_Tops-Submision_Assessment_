@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title> Registaration Form </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- link external css -->
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <!-- add favicon icon -->
+    <link rel="icon" type="image/x-icon" href="image/icon.png">
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <!-- add header text -->
+    <div class="header">
+        <h1> <u> Student Registaration Form </u> </h1>
+    </div>
+
+
+    <div class="content">
+        <!-- using form tag -->
+        <form>
+            <!-- used input type text  -->
+            <div class="box-1">
+                <label for="fname"> First Name: </label>
+                <input type="text" name="fname" placeholder="Enter your first name" required>
+                <br>
+
+                <label for="lname"> Last Name: </label>
+                <input type="text" name="lname" placeholder="Enter your last name" required>
+            </div>
+            <br>
+
+            <!-- used input type email -->
+            <div class="box-2">
+                <label for="email"> Email: </label>
+                <input type="email" name="email" placeholder="it should contain @.." required>
+
+                <br><br>
+            </div>
+            <div class="box-3">
+                <!-- used input type tel for mobile no. -->
+                <label for="mobile"> Mobile: </label>
+                <input type="number" name="mobile" maxlength="10" placeholder="only 10 digits are allowed" required>
+                <br>
+            </div>
+
+
+            <div class="radio">
+                <!-- used input type radio for select option -->
+                <label for="gender"> Gender: </label>
+                <input type="radio" name="male">
+                <label for="male"> Male </label>
+                <input type="radio" name="female">
+                <label for="female"> Female </label>
+                <br>
+            </div>
+
+            <div class="box-4">
+                <!-- used input type date -->
+                <label for="dob"> Date Of Birth: </label>
+                <input type="date" name="date of birth" required>
+                
+            </div>
+
+            <div class="box-5">
+            <!-- used textarea for address and ( using for massage ) -->
+            <p><label for="address"> Address: </label></p>
+            <textarea name="address" required></textarea>
+            <br>
+        </div>
+
+            <div class="box-1">
+            <label for="city"> City: </label>
+            <input type="text" name="city" id="city" required>
+            <br>
+        </div>
+
+            <div class="box-3">
+            <label for="pin"> Area PIN: </label>
+            <input type="tel" name="pin" id="pin" required>
+            <br>
+        </div>
+        
+            <div class="box-1"> 
+            <label for="state"> State: </label>
+            <input type="text" name="state" id="state" required>
+            <br>
+        </div>
+        
+            <div class="box-6">
+            <!-- used select tag for selecting content -->
+            <label for="qualification"> Qualification: </label>
+            <select name=" qualification" required>
+                <option value="qualification"> Select Qualification: </option>
+            </select>
+            <br>
+            <br>
+        </div>
+
+            <div class="box-7">
+            <!-- used input type checkbox -->
+            <label for="state"> Specialization: </label>
+            <br>
+            <input type="checkbox" name="subject1" value="computer science">
+            <label for="subject1"> Computer Science </label>
+            <br>
+            <input type="checkbox" name="subject2" value="information technology">
+            <label for="subject2"> Information Technology </label>
+            <br>
+            <input type="checkbox" name="subject3" value="computer architecture">
+            <label for="subject3"> Computer Architecture </label>
+            <br>
+            <input type="checkbox" name="subject4" value="tele communication">
+            <label for="subject4"> Tele Communication </label>
+            <br>
+        </div>
+
+            <div class="box-1">
+            <!-- used input type password -->
+            <label for="pass"> Password: </label>
+            <input type="password" name="pass" required>
+            <br>
+        </div>
+
+            <!-- used button tag for submit form -->
+            <button type="submit" id="btn"> Registered </button>
+        </form>
+
+    </div>
+
+</body>
+</html>

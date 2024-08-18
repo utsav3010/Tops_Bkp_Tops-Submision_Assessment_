@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title> Registaration Form </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <!-- link favicon icon -->
+    <link rel="icon" type="image/x-icon" href="image/icon.png">
+    <script src='main.js'></script>
+</head>
+<body>
+    <!-- add header and give titel -->
+    <h1> Student Registaration Form </h1>
+
+    <!-- used form tag -->
+    <form>
+
+        <!-- add label and input tag (type text) -->
+        <label for="fname"> First Name: </label>
+        <br> 
+        <input type="text" name="fname" placeholder="Enter your first name" required>
+        <br>
+
+        <label for="lname"> Last Name: </label>
+        <br> 
+        <input type="text" name="lname" placeholder="Enter your last name" required>
+        <br>
+
+        <!-- add label and input tag (type email) -->
+        <label for="email"> Email: </label>
+        <br> 
+        <input type="email" name="email" placeholder="it should contain @.." required>
+        <br>
+
+        <!-- add label and input tag (type tel for mobile no.) -->
+        <label for="mobile"> Mobile: </label>
+        <br> 
+        <input type="tel" name="mobile" maxlength="10" placeholder="only 10 digits are allowed" required>
+        <br>
+
+        <!-- add label and input tag (type radio for select option) -->
+        <label for="gender"> Gender: </label>
+        <br> 
+        <input type="radio" name="male">
+        <label for="male"> Male </label>
+        <input type="radio" name="female">
+        <label for="female"> Female </label>
+        <br>
+
+        <!-- add label and input tag (type date) -->
+        <label for="dob"> Date Of Birth: </label>
+        <br>
+        <input type="date" name="date of birth" required>
+        <br>
+
+        <!-- add label and textarea tag -->
+        <label for="address"> Address: </label>
+        <br>
+        <textarea name="address" style="height: 150px; width: 200px;" required></textarea>
+        <br>
+
+        <label for="city"> City: </label>
+        <br> 
+        <input type="text" name="city" required>
+        <br>
+
+        <label for="pin"> Area PIN: </label>
+        <br> 
+        <input type="tel" name="pin" required>
+        <br>
+
+        <label for="state"> State: </label>
+        <br> 
+        <input type="text" name="state" required>
+        <br>
+
+        <!-- add label and select and option tag -->
+        <label for="qualification"> Qualification: </label>
+        <br> 
+        <select name=" qualification" required>
+            <option value="qualification"> Select Qualification: </option>
+        </select>
+        <br>
+        <br>
+
+        <!-- add label and input tag (type checkbox) -->
+        <label for="state"> Specialization: </label>
+        <br> 
+        <input type="checkbox" name="subject1" value="computer science">
+        <label for="subject1"> Computer Science </label>
+        <br>
+        <input type="checkbox" name="subject2" value="information technology">
+        <label for="subject2"> Information Technology </label>
+        <br>
+        <input type="checkbox" name="subject3" value="computer architecture">
+        <label for="subject3"> Computer Architecture </label>
+        <br>
+        <input type="checkbox" name="subject4" value="tele communication">
+        <label for="subject4"> Tele Communication </label>
+        <br>
+
+        <!-- add label and input tag (type password) -->
+        <label for="pass"> Password: </label>
+        <br> 
+        <input type="password" name="pass" required>
+        <br>
+
+        <!-- add button for submit form -->
+        <button type="submit"> Registered </button> 
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,136 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.header
+{
+    text-align: center;
+    font-size: 8px;
+    color: red;
+
+}
+.content
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: #f2f2f2;
+    
+}
+.box-1 input
+{
+    width: 50%;
+    height: auto;
+    margin-left: 5%;
+    padding: 5px;
+    margin-top: 2%;
+}
+.box-1 label
+{
+    margin-left: 1%;
+}
+
+.box-2 input
+{
+    width: 50%;
+    height: auto;
+    margin-left: 7.6%;
+    padding: 5px;
+    margin-top: 1%;
+}
+.box-2 label
+{
+    margin-left: 1%;
+}
+.box-3 input
+{
+    width: 50%;
+    height: auto;
+    margin-left: 7%;
+    padding: 5px;
+    margin-top: 1%;
+}
+.box-3 label
+{
+    margin-left: 1%;
+}
+.radio
+{
+    margin-top: 1%;
+}
+.radio input
+{
+    margin-left: 7%;
+}
+.radio label
+{
+    margin-left: 1%;
+}
+.box-4 input
+{
+    width: 50%;
+    height: auto;
+    margin-left: 4%;
+    padding: 5px;
+    margin-top: 1%;
+}
+.box-4 label
+{
+    margin-left: 1%;
+}
+.box-5 textarea 
+{
+    width: 51%;
+    height: 130px;
+    margin-left: 12%;
+    padding: 5px;
+}
+.box-5 p label
+{
+    margin-left: 1%;
+}
+#city
+{
+    margin-left: 8.5%;
+}
+#pin
+{
+    margin-left: 6%;
+}
+#state
+{
+    margin-left: 8%;
+}
+.box-6 label
+{
+    margin-left: 1%;
+}
+.box-6 select
+{
+    margin-left: 4%;
+    margin-top: 1%;
+}
+.box-7 label
+{
+    margin-left: 1%;
+}
+.box-7 input
+{
+    margin-left: 12%;
+}
+#btn
+{
+    width: 8%;
+    height: 35px;
+    background-color: green;
+    color: white;
+    border: none;
+    margin-top: 1%;
+    padding: 5px;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    border-radius: 2px;
+}
